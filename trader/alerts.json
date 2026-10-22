@@ -1,32 +1,20 @@
 {
   "rules": [
     {
-      "id": "gold-below-4100",
+      "id": "gold-planA-4058",
       "symbol": "GC=F",
       "type": "below",
-      "price": 4100.0,
-      "note": "XAUUSD-Proxy: Test Unterstuetzung 4100 - Long nur bei Halt/Drehung, Short nur bei 5m-Schluss < 4098"
+      "price": 4058.0,
+      "note": "Plan A: Tagestief erreicht - Einstieg erst bei 30m-SCHLUSS unter 4058. Short ~4055, Stop 4075, Ziele 4035 / 4015",
+      "date": "2026-10-22"
     },
     {
-      "id": "gold-above-4120",
+      "id": "gold-planB-4082",
       "symbol": "GC=F",
       "type": "above",
-      "price": 4120.0,
-      "note": "XAUUSD-Proxy: Ausbruch ueber 4120 - Ziel VWAP ~4129"
-    },
-    {
-      "id": "gold-below-4096",
-      "symbol": "GC=F",
-      "type": "below",
-      "price": 4096.0,
-      "note": "Short-Bestaetigung: unter 4098 durchgerutscht"
-    },
-    {
-      "id": "gold-above-4106",
-      "symbol": "GC=F",
-      "type": "above",
-      "price": 4106.0,
-      "note": "Long-Bestaetigung: 4100-4105 zurueckerobert"
+      "price": 4082.0,
+      "note": "Plan B: Zone 4082-4090 erreicht - Short nur bei Ablehnung (30m-Schluss wieder unter 4082). Einstieg ~4085, Stop 4100, Ziele 4046 / 4024",
+      "date": "2026-10-22"
     }
   ]
 }
