@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-10-22T08:18:53Z",
+  "as_of": "2026-10-22T08:31:00Z",
   "source": "yahoo",
   "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
   "prices": {
-    "GC=F": 4098.4
+    "GC=F": 4107.4
   },
   "detail": {
     "GC=F": {
       "prev_close": 4150.0,
-      "time": "2026-10-22T08:08:51Z",
+      "time": "2026-10-22T08:20:57Z",
       "source": "yahoo",
-      "fetched": "2026-10-22T08:18:53Z"
+      "fetched": "2026-10-22T08:31:00Z"
     }
   }
 }
