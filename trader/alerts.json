@@ -1,0 +1,18 @@
+{
+  "rules": [
+    {
+      "id": "gold-below-4100",
+      "symbol": "GC=F",
+      "type": "below",
+      "price": 4100.0,
+      "note": "XAUUSD-Proxy: Test Unterstuetzung 4100 - Long nur bei Halt/Drehung, Short nur bei 5m-Schluss < 4098"
+    },
+    {
+      "id": "gold-above-4120",
+      "symbol": "GC=F",
+      "type": "above",
+      "price": 4120.0,
+      "note": "XAUUSD-Proxy: Ausbruch ueber 4120 - Ziel VWAP ~4129"
+    }
+  ]
+}
