@@ -13,6 +13,20 @@
       "type": "above",
       "price": 4120.0,
       "note": "XAUUSD-Proxy: Ausbruch ueber 4120 - Ziel VWAP ~4129"
+    },
+    {
+      "id": "gold-below-4096",
+      "symbol": "GC=F",
+      "type": "below",
+      "price": 4096.0,
+      "note": "Short-Bestaetigung: unter 4098 durchgerutscht"
+    },
+    {
+      "id": "gold-above-4106",
+      "symbol": "GC=F",
+      "type": "above",
+      "price": 4106.0,
+      "note": "Long-Bestaetigung: 4100-4105 zurueckerobert"
     }
   ]
 }
